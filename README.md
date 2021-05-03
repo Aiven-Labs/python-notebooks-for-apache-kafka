@@ -50,7 +50,7 @@ The notebooks are divided per Apache Kafka functionality.
 
 **00 - Aiven Setup.ipynb** notebook downloads [Aiven's command line interface](https://aiven.io/blog/command-line-magic-with-the-aiven-cli?utm_source=github&utm_medium=organic&utm_campaign=blog_art&utm_content=repo) and creates an Apache Kafka and a PostgreSQL instance.
 
-Please change `<INSERT_TOKEN_HERE>` and `<INSERT_EMAIL_HERE>` with a valid email address and token created on [Aiven's website](https://console.aiven.io/signup?utm_source=github&utm_medium=organic&utm_campaign=blog_art&utm_content=repo). The notebook creates the instances and also stores all the required connection credentials locally. 
+Please change `<INSERT_TOKEN_HERE>` and `<INSERT_EMAIL_HERE>` with a valid email address and token created on [Aiven's website](https://console.aiven.io/signup?utm_source=github&utm_medium=organic&utm_campaign=blog_art&utm_content=repo). The notebook creates the instances and also stores all the required connection credentials locally.
 
 ### Produce and read Messages to Apache Kafka
 
