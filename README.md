@@ -31,14 +31,14 @@ You'll see a folder named `work` on the top left, under it you'll find the list 
 This repository contains the following notebooks.
 
 * [00 - Aiven Setup.ipynb](00%20-%20Aiven%20Setup.ipynb): Creates requires Apache Kafka and PostgreSQL instances on Aiven website
-* [01 - Producer.ipynb](01 - Producer.ipynb): Creates a Python Producers and produces the first messages
-* [02 - Consumer.ipynb](02 - Consumer.ipynb): reads the messages produced by [01 - Producer.ipynb](01 - Producer.ipynb)
-* [03 - 00 - Partition Producer.ipynb](03 - 00 - Partition Producer.ipynb): creates a topic with two partitions and pushes records in each partition
-* [03 - 01 - Consumer - Partition 0.ipynb](03 - 01 - Consumer - Partition 0.ipynb): reads messages pushed by [03 - 00 - Partition Producer.ipynb](03 - 00 - Partition Producer.ipynb) on partition 0
-* [03 - 02 - Consumer - Partition 1.ipynb](03 - 01 - Consumer - Partition 0.ipynb): reads messages pushed by [03 - 00 - Partition Producer.ipynb](03 - 00 - Partition Producer.ipynb) on partition 1
-* [04 - New Consumer Group.ipynb](04 - New Consumer Group.ipynb): creates a new consumer part of a new consumer group and reads messages produced by [01 - Producer.ipynb](01 - Producer.ipynb)
-* [05 - Kafka Connect.ipynb](05 - Kafka Connect.ipynb): creates a new topic containing JSON messages with schema and payload, and then creates a Kafka Connect JDBC Connector to PostgreSQL
-* [ON - Aiven - Delete Services.ipynb](ON - Aiven - Delete Services.ipynb): deletes all the instances created by [00 - Aiven Setup.ipynb](00 - Aiven Setup.ipynb)
+* [01 - Producer.ipynb](01%20-%20Producer.ipynb): Creates a Python Producers and produces the first messages
+* [02 - Consumer.ipynb](02%20-%20Consumer.ipynb): reads the messages produced by [01 - Producer.ipynb](01%20-%20Producer.ipynb)
+* [03 - 00 - Partition Producer.ipynb](03%20-%2000%20-%20Partition%20Producer.ipynb): creates a topic with two partitions and pushes records in each partition
+* [03 - 01 - Consumer - Partition 0.ipynb](03%20-%2001%20-%20Consumer%20-%20Partition%200.ipynb): reads messages pushed by [03 - 00 - Partition Producer.ipynb](03%20-%2000%20-%20Partition%20Producer.ipynb) on partition 0
+* [03 - 02 - Consumer - Partition 1.ipynb](03%20-%2001%20-%20Consumer%20-%20Partition%200.ipynb): reads messages pushed by [03 - 00 - Partition Producer.ipynb](03%20-%2000%20-%20Partition%20Producer.ipynb) on partition 1
+* [04 - New Consumer Group.ipynb](04%20-%20New%20Consumer%20Group.ipynb): creates a new consumer part of a new consumer group and reads messages produced by [01 - Producer.ipynb](01%20-%20Producer.ipynb)
+* [05 - Kafka Connect.ipynb](05%20-%20Kafka%20Connect.ipynb): creates a new topic containing JSON messages with schema and payload, and then creates a Kafka Connect JDBC Connector to PostgreSQL
+* [ON - Aiven - Delete Services.ipynb](ON%20-%20Aiven%20-%20Delete%20Services.ipynb): deletes all the instances created by [00 - Aiven Setup.ipynb](00%20-%20Aiven%20Setup.ipynb)
 
 ## Notebook Details
 
