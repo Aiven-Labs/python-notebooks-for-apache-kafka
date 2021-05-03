@@ -30,7 +30,7 @@ You'll see a folder named `work` on the top left, under it you'll find the list 
 
 This repository contains the following notebooks.
 
-* [00 - Aiven Setup.ipynb](00 - Aiven Setup.ipynb): Creates requires Apache Kafka and PostgreSQL instances on Aiven website
+* [00 - Aiven Setup.ipynb](00%20-%20Aiven%20Setup.ipynb): Creates requires Apache Kafka and PostgreSQL instances on Aiven website
 * [01 - Producer.ipynb](01 - Producer.ipynb): Creates a Python Producers and produces the first messages
 * [02 - Consumer.ipynb](02 - Consumer.ipynb): reads the messages produced by [01 - Producer.ipynb](01 - Producer.ipynb)
 * [03 - 00 - Partition Producer.ipynb](03 - 00 - Partition Producer.ipynb): creates a topic with two partitions and pushes records in each partition
