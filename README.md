@@ -38,7 +38,7 @@ This repository contains the following notebooks.
 * [03 - 02 - Consumer - Partition 1.ipynb](03%20-%2001%20-%20Consumer%20-%20Partition%200.ipynb): reads messages pushed by [03 - 00 - Partition Producer.ipynb](03%20-%2000%20-%20Partition%20Producer.ipynb) on partition 1
 * [04 - New Consumer Group.ipynb](04%20-%20New%20Consumer%20Group.ipynb): creates a new consumer part of a new consumer group and reads messages produced by [01 - Producer.ipynb](01%20-%20Producer.ipynb)
 * [05 - Kafka Connect.ipynb](05%20-%20Kafka%20Connect.ipynb): creates a new topic containing JSON messages with schema and payload, and then creates a Kafka Connect JDBC Connector to PostgreSQL
-* [ON - Aiven - Delete Services.ipynb](ON%20-%20Aiven%20-%20Delete%20Services.ipynb): deletes all the instances created by [00 - Aiven Setup.ipynb](00%20-%20Aiven%20Setup.ipynb)
+* [ON - Aiven - Delete Services.ipynb](0N%20-%20Aiven%20-%20Delete%20Services.ipynb): deletes all the instances created by [00 - Aiven Setup.ipynb](00%20-%20Aiven%20Setup.ipynb)
 
 ## Notebook Details
 
