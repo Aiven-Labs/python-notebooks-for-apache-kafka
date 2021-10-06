@@ -3,7 +3,7 @@
 This is a series of Jupyter Notebooks on how to start with Apache Kafka and Python.
 You can try these notebooks in order to learn the basic concepts of Kafka in an environment containing markdown text, media and executable code on the same page.
 
-The notebooks are based on a managed Apache Kafka instance created on [Aiven's website](https://aiven.io/kafka?utm_source=github&utm_medium=organic&utm_campaign=blog_art&utm_content=repo), but can be also customised to any Kafka instance running locally with SSL authentication. Aiven's offer 300$ of free credit that you can redeem by creating your account on [Aiven's website](https://console.aiven.io/signup?utm_source=github&utm_medium=organic&utm_campaign=blog_art&utm_content=repo).
+The notebooks are based on a managed Apache Kafka instance created on [Aiven's website](https://aiven.io/kafka?utm_source=github&utm_medium=organic&utm_campaign=blog_art&utm_content=repo), but can be also customised to any Apache Kafka instance running locally with SSL authentication. Aiven's offer 300$ of free credit that you can redeem by creating your account on [Aiven's website](https://console.aiven.io/signup?utm_source=github&utm_medium=organic&utm_campaign=blog_art&utm_content=repo).
 
 If you have any question or improvement suggestion regarding the notebooks, please open an issue. Any contributions are welcome!
 
