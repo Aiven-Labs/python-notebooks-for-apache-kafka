@@ -101,3 +101,5 @@ We maintain some other resources that you may also find useful:
 
 # License
 This project is licensed under the [Apache License, Version 2.0](https://github.com/aiven/aiven-kafka-connect-s3/blob/master/LICENSE).
+
+KAFKA is a registered trademark of The Apache Software Foundation and has been licensed for use by Aiven. Aiven has no affiliation with and is not endorsed by The Apache Software Foundation.
