@@ -1,7 +1,7 @@
-# Apache Kafka - Python Jupyter Notebooks
+# Python Jupyter Notebooks for Apache Kafka®
 
-This is a series of Jupyter Notebooks on how to start with Apache Kafka and Python.
-You can try these notebooks in order to learn the basic concepts of Kafka in an environment containing markdown text, media and executable code on the same page.
+This is a series of Jupyter Notebooks on how to start with Apache Kafka® and Python.
+You can try these notebooks in order to learn the basic concepts of Apache Kafka in an environment containing markdown text, media and executable code on the same page.
 
 The notebooks are based on a managed Apache Kafka instance created on [Aiven's website](https://aiven.io/kafka?utm_source=github&utm_medium=organic&utm_campaign=blog_art&utm_content=repo), but can be also customised to any Apache Kafka instance running locally with SSL authentication. Aiven's offer 300$ of free credit that you can redeem by creating your account on [Aiven's website](https://console.aiven.io/signup?utm_source=github&utm_medium=organic&utm_campaign=blog_art&utm_content=repo).
 
@@ -56,15 +56,15 @@ Please change `<INSERT_TOKEN_HERE>` and `<INSERT_EMAIL_HERE>` with a valid email
 
 ![Producer](images/producing.png)
 
-**01 - Producer.ipynb** Creates a Python Kafka Producer and produces the first messages. After the first message is produced, open  the **02 - Consumer.ipynb** notebook and pace it alongside the Producer.
+**01 - Producer.ipynb** Creates a Python Apache Kafka Producer and produces the first messages. After the first message is produced, open  the **02 - Consumer.ipynb** notebook and pace it alongside the Producer.
 
 ![Place consumer alongside the producer](images/move-consumer.gif)
 
-**02 - Consumer.ipynb** reads from the topic where **01 - Producer** wrote. But it does it from the point in time that it attaches to Kafka, not going back to history.
+**02 - Consumer.ipynb** reads from the topic where **01 - Producer** wrote. But it does it from the point in time that it attaches to Apache Kafka, not going back to history.
 
 ![Consumer](images/consumer.png)
 
-If you want to read messages created with **01 - Producer** you need to run **02 - Consumer.ipynb**'s last code block before producing any messages on **01 - Producer**. This behaviour is Kafka's default and can be changed by adding a line `'auto.offset.reset'='earliest'` to the consumer properties.
+If you want to read messages created with **01 - Producer** you need to run **02 - Consumer.ipynb**'s last code block before producing any messages on **01 - Producer**. This behaviour is Apache Kafka's default and can be changed by adding a line `'auto.offset.reset'='earliest'` to the consumer properties.
 
 ### Understanding Apache Kafka Partitions
 
@@ -84,7 +84,7 @@ Messages in Apache Kafka are not deleted when read from a consumer. This makes t
 
 ![Kafka Connect](images/connect_pg.png)
 
-Kafka Connect is a prebuilt framework enabling an easy integration of Apache Kafka with existing data sources or sinks. Aiven provides [Kafka connect as managed service](https://aiven.io/kafka-connect?utm_source=github&utm_medium=organic&utm_campaign=blog_art&utm_content=repo) making the integration a matter of a single config file. **05 - Kafka Connect.ipynb**: Creates a new Kafka topic containing messages with both schema and payload, and then pushes them to a PostgreSQL database via Kafka Connect.
+Apache Kafka Connect® is a prebuilt framework enabling an easy integration of Apache Kafka with existing data sources or sinks. Aiven provides [Kafka connect as managed service](https://aiven.io/kafka-connect?utm_source=github&utm_medium=organic&utm_campaign=blog_art&utm_content=repo) making the integration a matter of a single config file. **05 - Kafka Connect.ipynb**: Creates a new Kafka topic containing messages with both schema and payload, and then pushes them to a PostgreSQL database via Apache Kafka Connect.
 
 ### Delete Aiven Services
 
@@ -102,4 +102,4 @@ We maintain some other resources that you may also find useful:
 # License
 This project is licensed under the [Apache License, Version 2.0](https://github.com/aiven/aiven-kafka-connect-s3/blob/master/LICENSE).
 
-KAFKA is a registered trademark of The Apache Software Foundation and has been licensed for use by Aiven. Aiven has no affiliation with and is not endorsed by The Apache Software Foundation.
+Apache Kafka is a registered trademark of The Apache Software Foundation and has been licensed for use by Aiven. Aiven has no affiliation with and is not endorsed by The Apache Software Foundation.
