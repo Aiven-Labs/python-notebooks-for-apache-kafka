@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 .ipynb_checkpoints
-=======
-.ypynb_checkpoints
->>>>>>> a74098b... added gitignore
-=======
-.ipynb_checkpoints
->>>>>>> 6040175... Fixed gitignore
+config
+kafkacerts
